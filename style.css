@@ -1,1 +1,27 @@
+/* PRIME BOT Official Website */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0a0a0a;
+    color:white;
+    text-align:center;
+    min-height:100vh;
+}
+
+h1{
+    color:#FFD700;
+    font-size:60px;
+    margin-top:120px;
+}
+
+p{
+    color:#d0d0d0;
+    font-size:20px;
+    margin-top:20px;
+}
