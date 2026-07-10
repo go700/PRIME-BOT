@@ -1,27 +1,96 @@
-/* PRIME BOT Official Website */
-
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
 }
 
 body{
-    background:#0a0a0a;
-    color:white;
-    text-align:center;
-    min-height:100vh;
+background:#090909;
+color:white;
 }
 
-h1{
-    color:#FFD700;
-    font-size:60px;
-    margin-top:120px;
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(0,0,0,.5);
+backdrop-filter:blur(15px);
+position:fixed;
+width:100%;
 }
 
-p{
-    color:#d0d0d0;
-    font-size:20px;
-    margin-top:20px;
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#FFD700;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+transition:.3s;
+}
+
+nav a:hover{
+color:#FFD700;
+}
+
+.invite-btn{
+background:#FFD700;
+padding:12px 22px;
+border-radius:30px;
+color:black;
+font-weight:bold;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:70px;
+color:#FFD700;
+}
+
+.hero p{
+margin:25px 0;
+font-size:22px;
+max-width:700px;
+color:#ccc;
+}
+
+.buttons{
+display:flex;
+gap:20px;
+}
+
+.btn{
+background:#FFD700;
+padding:15px 30px;
+border-radius:40px;
+color:black;
+font-weight:bold;
+text-decoration:none;
+}
+
+.btn2{
+border:2px solid #FFD700;
+padding:15px 30px;
+border-radius:40px;
+color:#FFD700;
+text-decoration:none;
 }
